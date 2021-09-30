@@ -40,6 +40,7 @@ function showError(msgError) {
     message.style.display="block";
     message.innerText=msgError;
 }
+// for calculation of no. of notes
 function mainCalculation(balanceAmount) {
     tableContainer.style.visibility="visible";
     cashtable.style.visibility="visible";
