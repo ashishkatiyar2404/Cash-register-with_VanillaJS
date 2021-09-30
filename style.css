@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body{
+    /* background-image: url("images/cashImg.png"); */
+    font-weight: bold;
+    /* background-color: rgba(253, 253, 252, 0.575); */
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: royalblue;
+}
+h1{
+    text-align: center
+}
+.img-cash {
+    max-width: 40vw;
+    max-height: 40vh;
+    opacity: 80%;
+}
+.main-container{
+    text-align: center;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(253, 253, 252, 0.685);
+    width: 50%;
+};
+#message{
+    font-size: 5px;
+    background-color: blue;
+    color: red;
+}
+#btn-enter{
+    margin: auto;
+    width: 180px;
+    border-radius: 10px;
+    padding: 10px;
+}
+input{
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 40%;
+}
+label{
+    font-size: 20px;
+}
+#tableContainer{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+table{
+    visibility: hidden;
+    width:100%;
+    margin: auto;
+    background-color: rgb(255, 255, 253);
+    border: 1px solid black;
+}
+/* th,td{
+    color: salmon;
+} */
+table,th,td,tr{
+    border-collapse: collapse;
+    border:2px solid black;
+    margin-bottom: 100px;
+}
